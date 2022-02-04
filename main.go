@@ -13,7 +13,14 @@ var (
 
 func main() {
 	// Check the Environment variables
-	required_env_variables = []string{"SERVICE_ACCOUNT", "TF_WORKING_DIR"}
+	required_env_variables = []string{
+		"SERVICE_ACCOUNT",
+		"TF_WORKING_DIR",
+		"HPEGL_TENANT_ID",
+		"HPEGL_USER_ID",
+		"HPEGL_USER_SECRET",
+		"HPEGL_IAM_SERVICE_URL",
+	}
 	for _, env := range required_env_variables {
 		_, present := os.LookupEnv(env)
 		if !present {
