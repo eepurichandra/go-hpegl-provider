@@ -1,8 +1,8 @@
-# nem-morpheus-plugin
-The plugin uses Terraform to configure Virtual Machines on EXSi platform using hpegl provider
+# go-hpegl-provider
+The plugin uses Terraform to configure Virtual Machines on ESXi platform using hpegl provider
 
 ## Required Environment variables
-* SERVICE_ACCOUNT -> vmaas service account (dev/intg/prod).  
+* SERVICE_ACCOUNT -> HPE GreenLake vmaas service account (dev/intg/prod).  
 * TF_WORKING_DIR -> Directory where the terraform files present.
 * HPEGL_TENANT_ID -> The tenant-id to be used.
 * HPEGL_USER_ID -> The user id to be used.

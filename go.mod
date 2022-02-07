@@ -14,4 +14,4 @@ require (
 	golang.org/x/text v0.3.5 // indirect
 )
 
-module github.com/hpe-hcss/nem-morpheus-plugin
+module github.com/eepurichandra/go-hpegl-provider
